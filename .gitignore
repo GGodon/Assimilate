@@ -1,0 +1,100 @@
+# Ignore all files by default, but scan all directories.
+*
+!*/
+
+# Do not ignore git files in the root of the repo.
+!/.git*
+
+# Do not ignore current project's `.uproject`.
+!/*.uproject
+
+# Do not ignore source, config and plugins dirs.
+!/Source/**
+!/Config/**
+!/Plugins/**
+
+# Only allow .uasset and .umap files from /Content dir.
+# They're tracked by git-lfs, don't forget to track other
+# files if adding them here.
+!/Content/**/*.uasset
+!/Content/**/*.umap
+!/Content/**/*.Wav
+!/Content/**/*.Mp4
+
+# Allow any files from /RawContent dir.
+# Any file in /RawContent dir will be managed by git lfs.
+!/RawContent/**/*
+
+# OS/platform generated files.
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Mac OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Visual Studio
+.vs
+Content/2d/VideoOutput/101_ACT01_02.mp4
+Content/2d/VideoOutput/102_ACT03a_04.mp4
+Content/2d/VideoOutput/103_ACT03B.mp4
+Content/2d/VideoOutput/104_ACT05_06.mp4
+Content/2d/VideoOutput/105_ACT08.mp4
+Content/2d/VideoOutput/106_ACT09_10.mp4
+Content/2d/VideoOutput/201_ACT11.mp4
+Content/2d/VideoOutput/202_ACT12.mp4
+Content/2d/VideoOutput/301_ACT13_16.mp4
+Content/2d/VideoOutput/401_ACT17.mp4
+Content/2d/VideoOutput/403_ACT19.mp4
+*.mp4
+Content/2d/VideoOutput/101_ACT01_02.mp4
+Content/2d/VideoOutput/102_ACT03a_04.mp4
+Content/2d/VideoOutput/103_ACT03B.mp4
+Content/2d/VideoOutput/104_ACT05_06.mp4
+Content/2d/VideoOutput/105_ACT08.mp4
+Content/2d/VideoOutput/106_ACT09_10.mp4
+Content/2d/VideoOutput/201_ACT11.mp4
+Content/2d/VideoOutput/202_ACT12.mp4
+Content/2d/VideoOutput/301_ACT13_16.mp4
+Content/2d/VideoOutput/401_ACT17.mp4
+Content/2d/VideoOutput/403_ACT19.mp4
+Content/2d/VideoOutput/101_ACT01_02.mp4
+Content/2d/VideoOutput/102_ACT03a_04.mp4
+Content/2d/VideoOutput/103_ACT03B.mp4
+Content/2d/VideoOutput/104_ACT05_06.mp4
+Content/2d/VideoOutput/105_ACT08.mp4
+Content/2d/VideoOutput/106_ACT09_10.mp4
+Content/2d/VideoOutput/201_ACT11.mp4
+Content/2d/VideoOutput/202_ACT12.mp4
+Content/2d/VideoOutput/301_ACT13_16.mp4
+Content/2d/VideoOutput/401_ACT17.mp4
+Content/2d/VideoOutput/403_ACT19.mp4
+Content/2d/VideoOutput/101_ACT01_02.mp4
+Content/2d/VideoOutput/102_ACT03a_04.mp4
+Content/2d/VideoOutput/103_ACT03B.mp4
+Content/2d/VideoOutput/104_ACT05_06.mp4
+Content/2d/VideoOutput/105_ACT08.mp4
+Content/2d/VideoOutput/106_ACT09_10.mp4
+Content/2d/VideoOutput/201_ACT11.mp4
+Content/2d/VideoOutput/202_ACT12.mp4
+Content/2d/VideoOutput/301_ACT13_16.mp4
+Content/2d/VideoOutput/302_ACT14_15_Mat.uasset
+Content/2d/VideoOutput/401_ACT17.mp4
+Content/2d/VideoOutput/402_ACT18_BG_Mat.uasset
+Content/2d/VideoOutput/403_ACT19.mp4
